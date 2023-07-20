@@ -1,0 +1,74 @@
+/*initialize*/
+body {
+    font-family: "Avenir Next", "Sora";
+    line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: dark;
+    font-weight: 500;
+}
+
+a{
+    color: dark;text-decoration: none;
+}
+
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+/*-----------------*/
+/* header */
+.nav-item{
+    list-style: none;
+    padding: 10px 20px;
+}
+
+/* blogs section */
+.blog-post {
+    margin-bottom: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.post-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.post-date {
+    font-size: 14px;
+    color: #777;
+}
+
+.post-content p {
+    line-height: 1.6;
+}
+
+.sidebar{
+    border-radius: 10px;
+}
+
+.sidebar h3 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+  
+/* footer */
+.footer-top {
+    padding: 50px;
+    background-color: gainsboro;
+}
+
+.footer-icon{
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+}
